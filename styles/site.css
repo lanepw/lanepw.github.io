@@ -1,5 +1,5 @@
 body {
-	background: red; 
+	background: white;
 
 }
 h1 {
@@ -7,13 +7,14 @@ h1 {
 	font-family: gotham, proxima nova, helvetica, arial, sans-serif;
 	font-style: italic;
 	font-weight: normal;
-	font-size: 120px;
+	font-size: 100px;
 	line-height: 1.5;
 	letter-spacing: .05em;
 	text-transform: uppercase;
-	color: #ff4739;
+	color: black;
+	margin: 100px;
 }
 h2 {
-	color: #ff4739;
 	letter-spacing: 0.025em;
+	margin: 5em;
 }
