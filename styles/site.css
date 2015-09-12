@@ -2,6 +2,9 @@ body {
 	background: white;
 
 }
+img {
+	height: 200px;
+}
 h1 {
 	margin: 0;
 	font-family: gotham, proxima nova, helvetica, arial, sans-serif;
@@ -17,4 +20,14 @@ h1 {
 h2 {
 	letter-spacing: 0.025em;
 	margin: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 20px;
+}
+h3 {
+	letter-spacing: 0.025em;
+	margin: 5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 20px;
 }
