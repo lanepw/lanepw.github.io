@@ -5,3 +5,9 @@ h1 {
   color: white;
   font-style: gotham, proxima nova, helvetica, arial, sans-serif;
 }
+h2 {
+  color: grey;
+}
+p {
+  color: grey;
+}
