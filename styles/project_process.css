@@ -55,6 +55,11 @@ h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+#pleasework {
+  height: 400px;
+  width: inherit;
+}
 p {
   margin-left: 100px;
 }
