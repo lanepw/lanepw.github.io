@@ -43,8 +43,18 @@ h3 {
 }
 
 #text-image {
-  height: 1000px;
+  height: 600px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#larger-image {
+  height: 900px;
   width: inherit;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+p {
+  margin-left: 100px;
 }
