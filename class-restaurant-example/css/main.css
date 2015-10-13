@@ -1,0 +1,23 @@
+.hero {
+	height: 500px;
+	background: url('http://fillmurray.com/1000/1000') center center no-repeat;
+	background-size: cover;
+	}
+
+.menu-kitchen {
+	background: yellow;
+}
+
+.menu-bar {
+	background: azure;
+}
+
+.gallery {
+	background: blue;
+}
+
+.footer {
+	height: 200px;
+	background: url('http://fillmurray.com/500/500') center center no-repeat;
+	background-size: cover;
+}
