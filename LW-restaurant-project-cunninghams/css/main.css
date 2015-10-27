@@ -1,9 +1,9 @@
 .hero {
 	height: 500px;
-	background: url('http://fillmurray.com/1000/1000') center center no-repeat;
+	background-color: #28948e;
 	background-size: cover;
 	}
-
+/* url('http://fillmurray.com/1000/1000') center center no-repeat; */
 .menu-kitchen {
 	background: yellow;
 }
