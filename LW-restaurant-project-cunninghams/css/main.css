@@ -4,11 +4,18 @@
 	background-size: cover;
 	}
 
+.logo {
+	height: 20px;
+	margin-top: 10px;
+	background-color: #28948e;
+}
+
 .menu-dinner {
 	background: white;
 	background-size: contain;
 }
 
+}
 .menu-bar {
 	background: azure;
 }
@@ -18,26 +25,53 @@
 }
 .gallery,
 .gallery-dinner {
-	background: white;
 	background-size: cover;
-	background: url('http://fillmurray.com/200/200') center center no-repeat;
+	overflow: hidden;
+	width: 1000px;
+	margin: 50px auto;
+	background: white;
+}
+
+.photobanner {
+	height: 700px;
+	width: 3550px;
+	margin: 0px;
 }
 
 .footer {
 	height: 200px;
-	background: url('http://fillmurray.com/500/500') center center no-repeat;
+	background: #28948e;
 	background-size: cover;
 }
 
 .infobar {
   margin-top: 400px;
   margin-left: 250px;
-  background-color: azure;
+	margin-right: 0px;
+  background-color: white;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: lighter;
 }
 
 .gallery-dinner {
-  background-size: cover;
-	
+  background-size: auto;
+	margin-top: 0px;
+
+}
+
+.gallery-heading {
+	font-size: 45px;
+	width: 100px;
+	color: #28948e;
+	font-weight: lighter;
+	margin-top: 0px;
+	text-align: justify;
+}
+
+.menu-section {
+	margin-top: 70px;
+	margin-bottom: 10px;
 }
 
 .menu-bar,
@@ -45,7 +79,6 @@
 .menu-dinner {
 	font-size: 15px;
 	margin-bottom: 20px;
-	margin-top: 20px;
 }
 .menu-section-title {
 	font-size: 20px;
@@ -89,3 +122,59 @@
 	font-size: 10px;
 	font-style: italic;
 }
+
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
