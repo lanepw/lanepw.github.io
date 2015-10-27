@@ -3,17 +3,24 @@
 	background-color: #28948e;
 	background-size: cover;
 	}
-/* url('http://fillmurray.com/1000/1000') center center no-repeat; */
-.menu-kitchen {
-	background: yellow;
+
+.menu-dinner {
+	background: white;
+	background-size: contain;
 }
 
 .menu-bar {
 	background: azure;
 }
 
-.gallery {
-	background: blue;
+.menu-dessert {
+	background: white;
+}
+.gallery,
+.gallery-dinner {
+	background: white;
+	background-size: cover;
+	background: url('http://fillmurray.com/200/200') center center no-repeat;
 }
 
 .footer {
@@ -28,9 +35,57 @@
   background-color: azure;
 }
 
-.gallery {
-  height: 100px;
-  background: url('http://fillmurray.com/200/200') center center no-repeat;
+.gallery-dinner {
   background-size: cover;
-  color: white;
+	
+}
+
+.menu-bar,
+.menu-dessert,
+.menu-dinner {
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.menu-section-title {
+	font-size: 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.menu-item-title {
+	color: #28948e;
+	font-size: 15px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.menu-item-desc {
+	font-size: 13px;
+}
+.menu-item-pairing {
+	font-size: 10px;
+	color: grey;
+	font: Verdana, Geneva, sans-serif;
+}
+.pairing-type {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.menu-item + .menu-item {
+	margin-top: 15px;
+}
+
+.menu-item-desc,
+.menu-item-pairing {
+	font-style: italic;
+	margin: 0;
+}
+.footer-heading {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.footer-text {
+	font-size: 10px;
+	font-style: italic;
 }
