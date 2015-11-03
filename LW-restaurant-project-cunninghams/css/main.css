@@ -1,5 +1,10 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .hero {
-	height: 500px;
+	height: 250px;
 	background-color: #28948e;
 	background-size: cover;
 	}
@@ -27,8 +32,6 @@
 .gallery-dinner {
 	background-size: cover;
 	overflow: hidden;
-	width: 1000px;
-	margin: 50px auto;
 	background: white;
 }
 
@@ -45,10 +48,9 @@
 }
 
 .infobar {
-  margin-top: 400px;
-  margin-left: 250px;
-	margin-right: 0px;
-  background-color: white;
+  margin-top: 180px;
+  margin-left: 0px;
+	margin-right: 70px;
 	font-style: italic;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -62,7 +64,6 @@
 
 .gallery-heading {
 	font-size: 45px;
-	width: 100px;
 	color: #28948e;
 	font-weight: lighter;
 	margin-top: 0px;

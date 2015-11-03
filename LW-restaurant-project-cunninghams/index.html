@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Cunningham's</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,10 +49,10 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="hero">
+  <div class="hero">
    <div class="container">
      <h1 class="logo">
-       <img src="img/logo-w-blue.png" alt="" height="100px">
+       <img src="img/logo-w-blue.png" alt="image" height="100">
      </h1>
      <h2 class="infobar">
        1 Olympic Place, Towson, MD. 4103397730.
@@ -67,7 +67,7 @@
 
      <div class="container">
 
-       <div class="columns four">
+       <div class="columns three">
 
          <div class="menu-section">
            <h2 class="menu-section-title">Appetizers</h2>
@@ -105,7 +105,7 @@
        </div> <!--end appetizers section-->
   </div> <!-- end column three-->
 
-  <div class="gallery-dinner columns three">
+  <div class="gallery-dinner columns five">
     <p class="gallery-heading">DINNER</p>
     <div class="photobanner">
         <img class="first" src="img/dinner2.jpg" alt="">
@@ -115,7 +115,7 @@
     </div>
   </div>
 
-       <div class="columns four">
+       <div class="columns three">
         <div class="menu-section">
          <h2 class="menu-section-title">Entrees</h2>
                <ul class="menu-items">
@@ -178,7 +178,14 @@
       </div> <!--end columns three-->
 
       <div class="gallery columns five">
-         <h2>Bar Gallery Here</h2>
+         <h2 class="gallery-heading">DRINKS</h2>
+         <div class="photobanner">
+             <img class="first" src="img/drinks.jpg" alt="">
+             <img src="img/drinks1.jpg" alt="">
+             <img src="img/drinks2.jpg" alt="">
+             <img src="img/drinks3.jpg" alt="">
+         </div>
+
      </div>
 
      <div class="columns three">
@@ -248,8 +255,15 @@
       </div> <!--end columns three-->
 
       <div class="gallery columns five">
-         <h2>Dessert Gallery Here</h2>
+         <h2 class="gallery-heading">DESSERT</h2>
+         <div class="photobanner">
+             <img class="first" src="img/dessert.jpg" alt="">
+             <img src="img/dessert1.jpg" alt="">
+             <img src="img/dessert2.jpg" alt="">
+             <img src="img/dessert3.jpg" alt="">
+         </div>
      </div>
+
 
      <div class="columns three">
        <div class="menu-section">
@@ -290,8 +304,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery.fittext.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <!--resize text script-->
+    <script>
+    jQuery(".gallery-heading").fitText(0.5);
+    </script>
+    <script>
+    jQuery(".infobar").fitText(3);
+    </script>
+
 
     <!--
     @NOTE Google Analytics:
