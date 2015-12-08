@@ -65,11 +65,16 @@
 
 body {
 	font-family: 'raleway', helvetica neue, helvetica, arial, sans-serif;
-	
+
 }
-.l-posts 
+.l-posts
 .l-post-detail
 .site-content {
 padding: 54px 0;
 background: #aaa;
+}
+
+.entry__full-src
+{
+	margin-left: 240px;
 }
